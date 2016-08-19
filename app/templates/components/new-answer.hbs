@@ -1,1 +1,7 @@
-{{yield}}
+{{#if showNewAnswerForm}}
+  {{input value=content id="answer-content" placeholder="Answer"}}
+  {{input value=author id="answer-author" placeholder="Author"}}
+  <button {{action 'save1'}}>Save</button>
+{{else}}
+  <button {{action 'showNewForm'}}>Add Answer</button>
+{{/if}}

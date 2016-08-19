@@ -1,14 +1,14 @@
 { "questions": [{
-    "question": "How much is that doggy in the window?",
+    "content": "How much is that doggy in the window?",
     "author": "Spud McKenzie",
     "detail": "Asking for a friend . . ."
   }, {
-    "question": "How much is that doggy in the window?",
-    "author": "Spud McKenzie",
-    "detail": "Asking for a friend . . ."
+    "content": "What's beef?",
+    "author": "Biggie Smalls",
+    "detail": "Asking for a fellow G . . ."
   }, {
-    "question": "How much is that doggy in the window?",
-    "author": "Spud McKenzie",
-    "detail": "Asking for a friend . . ."
+    "content": "How many licks to the center of a Tootsie Pop?",
+    "author": "Wise Ol' Owl",
+    "detail": "Who . . .  Who . . .  Who knows? . . ."
   }]
 }

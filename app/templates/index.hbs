@@ -1,7 +1,9 @@
 <h6>THIS IS INDEX</h6>
 
-
 {{#each model as |question|}}
   {{question-tile question=question}}
+  {{edit-question question=question update="update"}}
+  <hr>
 {{/each}}
+
 {{new-question save2="save3"}}

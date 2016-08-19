@@ -1,1 +1,8 @@
-{{yield}}
+{{#if editFormShow}}
+  {{input value=content id="content" placeholder=question.content}}
+  {{input value=author id="author" placeholder=question.author}}
+  {{input value=detail id="detail" placeholder=question.detail}}
+  <button {{action 'update' question}}>Save</button>
+{{else}}
+  <button {{action 'showEdit'}}>Edit</button>
+{{/if}}

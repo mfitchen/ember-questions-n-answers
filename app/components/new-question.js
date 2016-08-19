@@ -16,7 +16,7 @@ export default Ember.Component.extend({
       };
       this.set('content', '');
       this.set('author', '');
-      this.set('addNewPost', false);
+      this.set('addNewQuestion', false);
       this.sendAction('save2', params);
     }
   }

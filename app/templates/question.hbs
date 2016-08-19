@@ -1,9 +1,9 @@
-<h1>{{model.content}}</h1>
-
+<h3>Q: {{model.content}}</h3>
+<h4>ASKED BY: {{model.author}}</h4>
+<h5>BECAUSE: {{model.detail}}</h5>
 
 {{new-answer save1="save2" question=model}}
 
 {{#each model.answers as |answer|}}
   {{answer-tile answer=answer}}
-  {{edit-answer answer=answer}}
 {{/each}}

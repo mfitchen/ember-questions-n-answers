@@ -1,1 +1,8 @@
-{{yield}}
+{{#if this.addNewQuestion}}
+  {{input value=question id="question" placeholder="question"}}
+  {{input value=author id="author" placeholder="author"}}
+  {{input value=detail id="detail" placeholder="detail"}}
+  <button {{action 'save1'}}>Add Question</button>
+{{else}}
+  <button {{action 'newFormShow'}}>New Question</button>
+{{/if}}

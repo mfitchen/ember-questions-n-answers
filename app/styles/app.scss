@@ -1,0 +1,12 @@
+body {
+  background-color: lightgray;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  &:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+}

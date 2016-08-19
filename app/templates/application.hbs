@@ -1,3 +1,26 @@
-{{#link-to 'index'}}<img src="img/qna-logo.png" alt="QnA Logo" width="50px" height="50px">{{/link-to}}
-
-{{outlet}}
+<div class="wrap">
+  <div class="nav-wrap">
+    <div class="nav-logo">
+      <div class="nav-qna-logo">
+        {{#link-to 'index'}}<img class="logo" src="img/qna-logo.png" alt="QnA Logo">{{/link-to}}
+      </div>
+      <div class="nav-qna-info">
+        {{#link-to 'index'}}<h1 class="qna">QnA</h1>{{/link-to}}
+      </div>
+    </div>
+    <div class="nav-ember">
+      <div class="ember-info">
+        <p>an</p>
+      </div>
+      <div class="ember-logo">
+        <img class="logo-ember" src="img/ember-logo.png" alt="Ember Logo">
+      </div>
+      <div class="ember-info">
+        <p>app</p>
+      </div>
+    </div>
+  </div>
+  <div class="body-wrap">
+    {{outlet}}
+  </div>
+</div>

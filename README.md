@@ -1,4 +1,4 @@
-# _Questions-answers_
+# _Questions n Answers_
 
 #### _Epicodus: JavaScript (Week 3 Solo Project), August 19, 2016_
 

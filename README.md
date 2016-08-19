@@ -1,7 +1,22 @@
-# Questions-answers
+# _Questions-answers_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Epicodus: JavaScript (Week 3 Solo Project), August 19, 2016_
+
+#### By _**Marty Fitchen**_
+
+## Description
+
+_This is an Epicodus student solo project using Ember to build a message board that allows users to add questions, edit questions, and add answers. Users should be able to see all questions on the index page as well as be able to add new questions. Users should also be able to visit a questions dynamic route and see and add answers to the question. See specs below:_
+
+Project Requirements & Objectives  | Complete
+:------------- | :-------------: |
+*Required*: Create a question and answer message board where a user submits a question and other users can respond with answers. | X
+*Objectives*: Application template contains header with link(s). | X
+*Objective*: Data is stored in and retrieved from **Ember Data** models and **Firebase**. | X
+*Objectives*: Components are used to create display and behavior for your templates. | X
+*Objective*: One-to-many relationship exists between Question and Answers. | X
+*Objective*: Application works as expected. | X
+*Objective*: Project is in a polished, portfolio-quality state. | X
 
 ## Prerequisites
 
@@ -51,3 +66,14 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### License
+
+*MIT License*
+
+Copyright (c) 2016 **_Marty Fitchen_**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

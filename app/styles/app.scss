@@ -92,7 +92,7 @@ h1.qna {
 .riddler {
 	width: 350px;
 	height: auto;
-	margin: 0 20px 20px 0;
+	margin: 0 10px 20px 10px;
 	.riddler-q {
 		width: 350px;
 		height: 350px;
@@ -106,7 +106,8 @@ h4.question {
 	letter-spacing: 3px;
 	font-weight: bold;
 	font-size: 0.8em;
-	padding: 20px 20px;
+	padding: 20px 20px 0 20px;
+	margin: 0 0 20px 0;
 	text-shadow: 0.33px 0.33px 2px #333333;
 }
 
@@ -118,5 +119,123 @@ h2.questions {
 	font-style: italic;
 	font-size: 2.3em;
 	padding: 0 20px;
+	margin: 0;
 	text-shadow: 0.33px 0.33px 2px #333333;
+}
+
+h5.question-asked {
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: lighter;
+	font-size: 0.8em;
+	padding: 0 20px;
+	margin: 20px 0 0 0;
+	text-shadow: 0.33px 0.33px 2px #333333;
+}
+
+h3.question-asker {
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 1.8em;
+	padding: 0 20px;
+	margin: 0;
+	text-shadow: 0.33px 0.33px 2px #333333;
+}
+
+button.edit-button {
+	width: 100%;
+	height: 43px;
+	color: #40879b;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	background-color: #182023;
+	border: 1px solid #182023;
+}
+
+button.new-question, button.new-answer {
+	width: 350px;
+	height: 43px;
+	color: #182023;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 0 0 20px 0;
+	background-color: #40879b;
+	border: 1px solid #40879b;
+}
+
+.q-detail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: #182023;
+	border: 1px solid #182023;
+	h5 {
+		color: #40879b;
+		font-weight: lighter;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-size: 18px;
+		margin: 0;
+		padding: 20px 0 0 0;
+		span.asking-because {
+			color: #40879b;
+			font-weight: bolder;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			font-size: 13px;
+		}
+	}
+	h4 {
+		color: #ffffff;
+		font-weight: lighter;
+		text-transform: capitalize;
+		letter-spacing: 3px;
+		font-size: 15px;
+		margin: 0;
+		padding: 20px 20px;
+	}
+}
+
+.answers {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.answered, .answer-author {
+	display: flex;
+	align-items: baseline;
+}
+
+h3.answer-a {
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	margin: 0;
+	padding: 0;
+}
+
+h2.answer-b {
+	color: #40879b;
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0;
+}
+
+h2.answer-c {
+	color: #40879b;
+	font-size: 25px;
+	font-weight: bolder;
+	margin: 0 0 20px 0;
+	padding: 0;
 }

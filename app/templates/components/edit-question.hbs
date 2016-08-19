@@ -4,5 +4,5 @@
   {{input value=detail id="detail" placeholder=question.detail}}
   <button {{action 'update' question}}>Save</button>
 {{else}}
-  <button {{action 'showEdit'}}>Edit</button>
+  <button class="edit-button" {{action 'showEdit'}}>Edit Question</button>
 {{/if}}

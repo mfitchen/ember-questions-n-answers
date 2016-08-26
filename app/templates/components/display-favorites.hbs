@@ -1,1 +1,6 @@
-{{yield}}
+<h2>Your Favorite Questions</h2>
+{{#each favoriteQuestions.items as |item|}}
+  <div class="favQs">
+    <h4>{{item.content}}</h4>
+  </div>
+{{/each}}

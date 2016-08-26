@@ -295,3 +295,32 @@ i.that-question-is-gonna-be-a-star {
   align-items: center;
   padding: 0 20px;
 }
+
+.flags {
+  display: flex;
+  .footer-flag {
+    img {
+      height: 15px;
+      width: 23px;
+      margin-right: 0.5em;
+      box-shadow: 0.5px 0.5px 1px #333333;
+    }
+  }
+}
+
+.save-edits, .save-answer {
+	width: 100%;
+	height: 43px;
+	color: #ffffff;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 0 0 20px 0;
+	background-color: darkgreen;
+	border: 1px solid darkgreen;
+}
+
+input {
+  width: 100%;
+	height: 43px;
+}

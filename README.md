@@ -20,13 +20,13 @@ Project Requirements & Objectives  | Complete
 *Objective*: Project is in a polished, portfolio-quality state. | X
 
 ## Description - Continuation
-_This is an Epicodus student solo project using Ember to continue building upon a message board that allows users to see how many answers each question has with a computed property. Using a helper questions will display a formatting change or special icon for questions with_ no _answers. And finally integrate a service that allows users to create a list of favorite questions to reference later. See specs below:_
+_This is an Epicodus student solo project using Ember to continue building upon a message board that allows users to see how many answers each question has with a computed property. Using a helper questions will display a dollar bill (or **money**) icon for questions with two or more answers. And finally integrate a service that allows users to create a list of favorite questions to reference later. See specs below:_
 
 Project Requirements & Objectives  | Complete
 :------------- | :-------------: |
 *Required*: Continue developing the Question and Answer message board application from last week's independent project and code review by integrating the Ember features and functionality we learned this week. | --
 *Objectives*: Implement a **computed property**. | --
-*Objective*: Add a **helper**. | --
+*Objective*: Add a **helper**. | X
 *Objective*: Integrate a **service**. | --
 
 ## Prerequisites

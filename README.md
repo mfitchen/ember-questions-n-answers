@@ -25,7 +25,7 @@ _This is an Epicodus student solo project using Ember to continue building upon 
 Project Requirements & Objectives  | Complete
 :------------- | :-------------: |
 *Required*: Continue developing the Question and Answer message board application from last week's independent project and code review by integrating the Ember features and functionality we learned this week. | --
-*Objectives*: Implement a **computed property**. | --
+*Objectives*: Implement a **computed property**. | X
 *Objective*: Add a **helper**. | X
 *Objective*: Integrate a **service**. | X
 *Objective*: Implement a feature that uses a **Firebase query**. | X

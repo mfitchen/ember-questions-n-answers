@@ -4,14 +4,7 @@
 <div class="body-riddler">
   {{#each model as |question|}}
     <div class="riddler">
-      {{#link-to 'question' question}}
-        <div class="riddler-q">
-          {{question-tile question=question}}
-          <div class="money">
-            {{answer-popularity question}}
-          </div>
-        </div>
-      {{/link-to}}
+      {{question-tile question=question}}
       {{edit-question question=question update="update"}}
     </div>
   {{/each}}

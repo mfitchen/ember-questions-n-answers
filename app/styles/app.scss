@@ -97,6 +97,9 @@ h1.qna {
 		width: 350px;
 		height: 350px;
 		background-image: url("../img/question-marks.jpg");
+    &:hover {
+      background-image: url("../img/question-marks2.jpg");
+    }
 	}
 }
 
@@ -265,8 +268,15 @@ i.that-question-is-gonna-be-a-star {
   font-size: 33px;
   color: #ffffff;
   margin-left: 165px;
-  margin-top: 50px;
+  margin-top: 0.3em;
   -webkit-text-shadow: 0px 0px 18px lightgreen;
   -moz-text-shadow: 0px 0px 18px lightgreen;
   text-shadow: 0px 0px 18px lightgreen;
+}
+
+.bracket {
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: #40879b;
+  text-shadow: 0.33px 0.33px 2px #182023;
 }

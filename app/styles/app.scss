@@ -169,6 +169,18 @@ button.new-question, button.new-answer {
 	border: 1px solid #40879b;
 }
 
+button.btn-add {
+  width: 350px;
+	height: 43px;
+	color: #ffffff;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 0 0 20px 0;
+	background-color: #96aa9f;
+	border: 1px solid #96aa9f;
+}
+
 .q-detail {
 	display: flex;
 	flex-direction: column;

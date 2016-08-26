@@ -28,6 +28,7 @@ Project Requirements & Objectives  | Complete
 *Objectives*: Implement a **computed property**. | --
 *Objective*: Add a **helper**. | X
 *Objective*: Integrate a **service**. | X
+*Objective*: Implement a feature that uses a **Firebase query**. | X
 
 ## Prerequisites
 

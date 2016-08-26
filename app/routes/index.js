@@ -1,8 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model() {
-    return this.store.findAll('question');
+  model: function() {
+    return this.store.query('question', {
+      orderBy: 'content',
+    });
   },
   actions: {
     save3(params){

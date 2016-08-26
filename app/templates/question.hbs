@@ -11,6 +11,8 @@
   </div>
 </div>
 
+{{#link-to 'index'}}<button {{action 'addToFavs' model}} class="btn-add">Add to favorites</button>{{/link-to}}
+
 {{new-answer save1="save2" question=model}}
 
 {{#each model.answers as |answer|}}

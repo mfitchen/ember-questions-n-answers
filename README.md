@@ -1,6 +1,7 @@
 # _Questions n Answers_
 
 #### _Epicodus: JavaScript (Week 3 Solo Project), August 19, 2016_
+#### _Epicodus: JavaScript (Week 4 Solo Project), August 26, 2016_ | _Continuation_
 
 #### By _**Marty Fitchen**_
 
@@ -17,6 +18,16 @@ Project Requirements & Objectives  | Complete
 *Objective*: One-to-many relationship exists between Question and Answers. | X
 *Objective*: Application works as expected. | X
 *Objective*: Project is in a polished, portfolio-quality state. | X
+
+## Description - Continuation
+_This is an Epicodus student solo project using Ember to continue building upon a message board that allows users to see how many answers each question has with a computed property. Using a helper questions will display a formatting change or special icon for questions with_ no _answers. And finally integrate a service that allows users to create a list of favorite questions to reference later. See specs below:_
+
+Project Requirements & Objectives  | Complete
+:------------- | :-------------: |
+*Required*: Continue developing the Question and Answer message board application from last week's independent project and code review by integrating the Ember features and functionality we learned this week. | --
+*Objectives*: Implement a **computed property**. | --
+*Objective*: Add a **helper**. | --
+*Objective*: Integrate a **service**. | --
 
 ## Prerequisites
 
